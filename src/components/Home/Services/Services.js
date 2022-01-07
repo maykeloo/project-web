@@ -34,8 +34,8 @@ const Services = () => {
         <h2 className="title">REFERENZEN</h2>
       </div>
       <div className="boxes w-100 d-flex flex-wrap justify-content-between mt-5">
-        {boxes.map((box) => (
-          <div className="box d-flex flex-column text-center mt-5 ">
+        {boxes.map((box, index) => (
+          <div key={index} className="box d-flex flex-column text-center mt-5 ">
             <h3 className="service-title">{box.title}</h3>
             <p className="py-3">{box.text}</p>
           </div>

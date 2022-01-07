@@ -125,8 +125,8 @@ const Footer = () => {
     <div className="container-fluid px-0">
       <div className="section-1 bg-primary py-5">
         <div className="container-fluid container-md flex-wrap d-flex justify-content-between">
-          {section1_boxes.map((box) => (
-            <div className="d-flex footer-section1-box flex-column text-light gap-3 justify-content-between pb-5">
+          {section1_boxes.map((box, index) => (
+            <div key={index} className="d-flex footer-section1-box flex-column text-light gap-3 justify-content-between pb-5">
               <div className="d-flex justify-content-center">
                 <p className="footer-section1-box-title">{box.title}</p>
               </div>
@@ -153,8 +153,8 @@ const Footer = () => {
       <div className="section-2 bg-secondary pb-5">
         <div className="container-fluid container-md d-flex justify-content-between">
           <div className="column-section2-footer d-flex flex-column gap-3 pt-5">
-            {section_2_box1.map((box) => (
-              <div className="d-flex align-items-center gap-2 box-row">
+            {section_2_box1.map((box, index) => (
+              <div key={index} className="d-flex align-items-center gap-2 box-row">
                 <span className="white-box-section2 rounded">
                   <img src={box.img} alt="" />
                 </span>
@@ -163,8 +163,8 @@ const Footer = () => {
             ))}
           </div>
           <div className="column-section2-footer d-flex flex-column gap-3 pt-5">
-            {section_2_box2.map((box) => (
-              <div className="d-flex align-items-center gap-2 box-row">
+            {section_2_box2.map((box, index) => (
+              <div key={index} className="d-flex align-items-center gap-2 box-row">
                 <span className="white-box-section2 rounded">
                   <img src={box.img} alt="" />
                 </span>
@@ -173,8 +173,8 @@ const Footer = () => {
             ))}
           </div>
           <div className="column-section2-footer d-flex flex-column gap-3 pt-5">
-            {section_2_box3.map((box) => (
-              <div className="d-flex align-items-center gap-2 box-row">
+            {section_2_box3.map((box, index) => (
+              <div key={index} className="d-flex align-items-center gap-2 box-row">
                 <span className="white-box-section2 rounded">
                   <img src={box.img} alt="" />
                 </span>

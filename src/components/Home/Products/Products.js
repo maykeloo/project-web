@@ -28,8 +28,8 @@ const Products = () => {
       </div>
       <div className="d-flex flex-column">
         <div className="d-flex box-row flex-wrap mt-3">
-          {Garagen_Sektionaltore_Rolltore.map((box) => (
-            <div className="product-box rounded-top d-flex flex-column">
+          {Garagen_Sektionaltore_Rolltore.map((box, index) => (
+            <div key={index} className="product-box rounded-top d-flex flex-column">
               <div className="box-title text-light p-3">{box.name}</div>
               <div className="position-relative image-box overflow-hidden">
                 <img
@@ -59,8 +59,8 @@ const Products = () => {
       </div>
       <div className="d-flex flex-column">
         <div className="d-flex box-row flex-wrap mt-3">
-          {Garagen_Sektionaltore_Rolltore.map((box) => (
-            <div className="product-box rounded-top d-flex flex-column">
+          {Garagen_Sektionaltore_Rolltore.map((box, index) => (
+            <div key={index} className="product-box rounded-top d-flex flex-column">
               <div className="box-title text-light p-3">{box.name}</div>
               <div className="position-relative image-box overflow-hidden">
                 <img
