@@ -1,5 +1,5 @@
 .title-textsection {
-    font-size: 1.3em;
+    font-size: 1.3vw;
     font-weight: 600;
 
     @media screen and (max-width: 1200px) {
@@ -16,7 +16,7 @@
 }
 
 .text-textsection {
-    font-size: 1.3em;
+    font-size: 1.3vw;
 
     @media screen and (max-width: 1200px) {
         font-size: 1.3em;
@@ -46,3 +46,4 @@
         background-color: grey;
     }
 }
+

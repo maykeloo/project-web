@@ -17,7 +17,7 @@
 
 .box-title {
     background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(103,103,103,1) 100%);
-    font-size: 1.1em;
+    font-size: 0.8vw;
     height: 100px;
     display: flex;
     align-items: center;
@@ -34,6 +34,10 @@
     }
 }
 
+.product-cont {
+    width: 80%;
+}
+
 .product-box {
     width: 20vw;
     cursor: pointer;
@@ -48,8 +52,12 @@
         }
     }
 
+    @media screen and (max-width: 900px) {
+        width: 30vw;
+    }
+
     @media screen and (max-width: 600px) {
-        width: 42vw;
+        width: 30vw;
     }
 }
 

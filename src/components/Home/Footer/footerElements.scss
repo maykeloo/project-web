@@ -61,7 +61,7 @@
 
 
 .footer-section1-box-description {
-    font-size: 1em;
+    font-size: 0.65vw;
 
     @media screen and (max-width: 1400px) {
         font-size: 1vw;
@@ -119,6 +119,8 @@
 .text-box-section2 {
     transition: 0.2s;
     color: white;
+    font-size: 0.8vw;
+
 
     @media screen and (max-width: 1000px) {
         font-size: 1.5vw;
@@ -136,7 +138,7 @@
 
 .socialbar-footer {
 
-    gap: 10px;
+    gap: 5px;
 
     @media screen and (max-width: 650px) {
         width: 30;
@@ -159,7 +161,7 @@
 
 .linksbar-footer {
 
-    gap: 30px;
+    gap: 10px;
 
     @media screen and (max-width: 650px) {
         width: 100%;
@@ -170,13 +172,13 @@
     }
 
     @media screen and (max-width: 1000px) {
-        gap: 15px;
+        gap: 5px;
     }
     > span {
 
         transition: 0.2s;
         white-space: pre;
-        font-size: 0.8vw;
+        font-size: 0.65vw;
 
         @media screen and (max-width: 1300px) {
         font-size: 1.1vw;
@@ -191,7 +193,7 @@
         }
 
         @media screen and (max-width: 650px) {
-            font-size: 0.7em;
+            font-size: 0.65em;
         }
 
         &:hover {
@@ -220,14 +222,17 @@
 }
 
 .reserved-text {
-    font-size: 1em;
+    font-size: 0.8vw;
+    width: 75%;
 
     @media screen and (max-width: 1000px) {
         font-size: 0.6em;
     }
 
     @media screen and (max-width: 700px) {
-        font-size: 0.8em;
+        font-size: 0.70em;
+    width: 100%;
+
     }
 }
 

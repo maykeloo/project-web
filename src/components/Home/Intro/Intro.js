@@ -1,12 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import desktopimg from '../../../images/img-intro-desktop.webp'
+import mobileimg from '../../../images/img-intro-mobile.webp'
+
+
 
 const Intro = () => {
     return (
         <div>
             <div className="top-intro container-fluid px-0">
-                <img className='w-100 h-auto desktop-img-intro' src="https://www.baudiscount-garagen.de/images/baner_1600x500_mb2.jpg" alt="" />
-                <img className='w-100 h-auto mobile-img-intro' src="https://www.baudiscount-garagen.de/images/baner_768x384_mb2.jpg" alt="" />
+                <img className='w-100 h-auto desktop-img-intro' src={desktopimg} alt="" />
+                <img className='w-100 h-auto mobile-img-intro' src={mobileimg} alt="" />
 
             </div>
             <div className="bottom-intro mx-auto rounded box-intro mt-5">

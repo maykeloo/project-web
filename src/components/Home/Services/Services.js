@@ -38,7 +38,7 @@ const Services = () => {
             <div className='boxes w-100 d-flex flex-wrap justify-content-between mt-5'>
                 {boxes.map(box => (
                 <div className='box d-flex flex-column text-center mt-5 '>
-                    <h3>{box.title}</h3>
+                    <h3 className='service-title'>{box.title}</h3>
                     <p className='py-3'>{box.text}</p>
                 </div>
                 ))}

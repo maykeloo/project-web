@@ -1,24 +1,25 @@
 import React from "react";
 import { FiMousePointer } from "react-icons/fi";
+import productimg from '../../../images/product.webp'
 
 const Garagen_Sektionaltore_Rolltore = [
   {
     name: "Garagen Doppelflügeltor - Stahltor nach Maß",
-    img: "https://www.baudiscount-garagen.de/images/formular/produkte/doppelflugeltore-rahmen-gms.jpg",
+    img: `${productimg}`,
   },
   {
     name: "Sektionaltor 60mm Stark U=0,9 [W/m²K]* nach Maß",
-    img: "https://www.baudiscount-garagen.de/images/formular/produkte/doppelflugeltore-rahmen-gms.jpg",
+    img: `${productimg}`,
   },
   {
     name: "Garagenrolltor mit Kasten nach Maß",
-    img: "https://www.baudiscount-garagen.de/images/formular/produkte/doppelflugeltore-rahmen-gms.jpg",
+    img: `${productimg}`,
   },
 ];
 
 const Products = () => {
   return (
-    <div className="container-fluid container-lg product-container">
+    <div className="container-fluid product-cont product-container">
       <div className="titlebar-products w-100 py-2">
         <h4>GARAGENTORE</h4>
       </div>

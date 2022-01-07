@@ -202,7 +202,7 @@ const Footer = () => {
           </div>
 
           <div className='container-fluid container-md pt-3 d-flex justify-content-between p-0'>
-            <div className="w-75 reserved-container">
+            <div className="reserved-container">
               <span className="reserved-text text-nowrap">All Rights Reserved ® <a href="https://www.baudiscount-garagen.de/" target='_blank'>www.Baudiscount-Garagen.de</a> Copyright 2004 - 2022 </span>
             </div>
             <div className="d-flex justify-content-end">
