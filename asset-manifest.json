@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/project-web/static/css/main.d589ed5d.css",
-    "main.js": "/project-web/static/js/main.d7dacb9e.js",
+    "main.css": "/project-web/static/css/main.ad6844fe.css",
+    "main.js": "/project-web/static/js/main.448accac.js",
+    "static/media/img-intro-desktop.jpg": "/project-web/static/media/img-intro-desktop.fb334a7fb25d5a9b6ffd.jpg",
+    "static/media/img-intro-mobile.jpg": "/project-web/static/media/img-intro-mobile.eaca124aea0172a484e8.jpg",
+    "static/media/product.jpg": "/project-web/static/media/product.ac4e4145205e8a137ff6.jpg",
+    "static/media/img-header.jpg": "/project-web/static/media/img-header.65e6602da14464fe2587.jpg",
+    "static/media/logo.svg": "/project-web/static/media/logo.e060b5cc3fb0a18e7880fb855d610331.svg",
+    "static/media/img-header-numbers.svg": "/project-web/static/media/img-header-numbers.c7b1cfd92453d0c3800a437988563ed8.svg",
     "index.html": "/project-web/index.html",
-    "main.d589ed5d.css.map": "/project-web/static/css/main.d589ed5d.css.map",
-    "main.d7dacb9e.js.map": "/project-web/static/js/main.d7dacb9e.js.map"
+    "main.ad6844fe.css.map": "/project-web/static/css/main.ad6844fe.css.map",
+    "main.448accac.js.map": "/project-web/static/js/main.448accac.js.map"
   },
   "entrypoints": [
-    "static/css/main.d589ed5d.css",
-    "static/js/main.d7dacb9e.js"
+    "static/css/main.ad6844fe.css",
+    "static/js/main.448accac.js"
   ]
 }
