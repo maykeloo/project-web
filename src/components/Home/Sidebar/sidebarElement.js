@@ -3,7 +3,7 @@ import { RiCloseFill } from "react-icons/ri";
 
 export const SidebarBox = styled.div`
   display: none;
-  
+
   @media screen and (max-width: 650px) {
     width: 280px;
     height: 100vh;

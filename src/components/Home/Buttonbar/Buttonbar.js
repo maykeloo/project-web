@@ -3,7 +3,7 @@
 
 import React from "react";
 
-const Buttonbar = ({setVisibility}) => {
+const Buttonbar = ({ setVisibility }) => {
   return (
     <div className="container-fluid buttonbar position-relative mt-2 d-flex justify-content-center">
       <div className="buttonwrap">
@@ -29,11 +29,14 @@ const Buttonbar = ({setVisibility}) => {
         {/*mobile*/}
 
         <div className="d-flex align-items-center mobile">
-            <div className="hamburger-menu d-flex align-items-center" onClick={() => setVisibility(true)}>
-              <span className="span" />
-              <span className="span" />
-              <span className="span" />
-            </div>
+          <div
+            className="hamburger-menu d-flex align-items-center"
+            onClick={() => setVisibility(true)}
+          >
+            <span className="span" />
+            <span className="span" />
+            <span className="span" />
+          </div>
           <div className="bar w-auto d-flex flex-nowrap mobile align-items-center">
             <a href="#" alt="" className="">
               <span>Startseite</span>

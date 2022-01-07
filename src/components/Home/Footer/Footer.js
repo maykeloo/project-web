@@ -50,20 +50,20 @@ const Footer = () => {
       img: "https://www.baudiscount-garagen.de/images/icons/2.svg",
     },
     {
-        text: 'Produktvideos',
-        img: 'https://www.baudiscount-garagen.de/images/icons/29.svg'
+      text: "Produktvideos",
+      img: "https://www.baudiscount-garagen.de/images/icons/29.svg",
     },
     {
-        text: 'Produktdatenblätter',
-        img: 'https://www.baudiscount-garagen.de/images/icons/2.svg'
+      text: "Produktdatenblätter",
+      img: "https://www.baudiscount-garagen.de/images/icons/2.svg",
     },
     {
-        text: 'Produktbilder',
-        img: 'https://www.baudiscount-garagen.de/images/icons/30.svg'
+      text: "Produktbilder",
+      img: "https://www.baudiscount-garagen.de/images/icons/30.svg",
     },
     {
-        text: 'Kataloge',
-        img: 'https://www.baudiscount-garagen.de/images/icons/24.svg'
+      text: "Kataloge",
+      img: "https://www.baudiscount-garagen.de/images/icons/24.svg",
     },
   ];
 
@@ -77,20 +77,20 @@ const Footer = () => {
       img: "https://www.baudiscount-garagen.de/images/icons/14.svg",
     },
     {
-        text: 'Schneelastzonen',
-        img: 'https://www.baudiscount-garagen.de/images/icons/18.svg'
+      text: "Schneelastzonen",
+      img: "https://www.baudiscount-garagen.de/images/icons/18.svg",
     },
     {
-        text: 'Lieferbedingungen',
-        img: 'https://www.baudiscount-garagen.de/images/icons/7.svg'
+      text: "Lieferbedingungen",
+      img: "https://www.baudiscount-garagen.de/images/icons/7.svg",
     },
     {
-        text: 'Lieferzeiten',
-        img: 'https://www.baudiscount-garagen.de/images/icons/8.svg'
+      text: "Lieferzeiten",
+      img: "https://www.baudiscount-garagen.de/images/icons/8.svg",
     },
     {
-        text: 'Garantie',
-        img: 'https://www.baudiscount-garagen.de/images/icons/4.svg'
+      text: "Garantie",
+      img: "https://www.baudiscount-garagen.de/images/icons/4.svg",
     },
   ];
 
@@ -104,20 +104,20 @@ const Footer = () => {
       img: "https://www.baudiscount-garagen.de/images/icons/17.svg",
     },
     {
-        text: 'News',
-        img: 'https://www.baudiscount-garagen.de/images/icons/27.svg'
+      text: "News",
+      img: "https://www.baudiscount-garagen.de/images/icons/27.svg",
     },
     {
-        text: 'Zahlungsmöglichkeiten',
-        img: 'https://www.baudiscount-garagen.de/images/icons/9.svg'
+      text: "Zahlungsmöglichkeiten",
+      img: "https://www.baudiscount-garagen.de/images/icons/9.svg",
     },
     {
-        text: 'AGB',
-        img: 'https://www.baudiscount-garagen.de/images/icons/5.svg'
+      text: "AGB",
+      img: "https://www.baudiscount-garagen.de/images/icons/5.svg",
     },
     {
-        text: 'Impressum',
-        img: 'https://www.baudiscount-garagen.de/images/icons/4.svg'
+      text: "Impressum",
+      img: "https://www.baudiscount-garagen.de/images/icons/4.svg",
     },
   ];
 
@@ -153,62 +153,92 @@ const Footer = () => {
       <div className="section-2 bg-secondary pb-5">
         <div className="container-fluid container-md d-flex justify-content-between">
           <div className="column-section2-footer d-flex flex-column gap-3 pt-5">
-              {section_2_box1.map(box => (
-                  <div className="d-flex align-items-center gap-2 box-row">
-                      <span className="white-box-section2 rounded"><img src={box.img} alt="" /></span>
-                      <p className="text-box-section2 m-0">{box.text}</p>
-                  </div>
-              ))}
+            {section_2_box1.map((box) => (
+              <div className="d-flex align-items-center gap-2 box-row">
+                <span className="white-box-section2 rounded">
+                  <img src={box.img} alt="" />
+                </span>
+                <p className="text-box-section2 m-0">{box.text}</p>
+              </div>
+            ))}
           </div>
           <div className="column-section2-footer d-flex flex-column gap-3 pt-5">
-          {section_2_box2.map(box => (
-                  <div className="d-flex align-items-center gap-2 box-row">
-                      <span className="white-box-section2 rounded"><img src={box.img} alt="" /></span>
-                      <p className="text-box-section2 m-0">{box.text}</p>
-                  </div>
-              ))}
+            {section_2_box2.map((box) => (
+              <div className="d-flex align-items-center gap-2 box-row">
+                <span className="white-box-section2 rounded">
+                  <img src={box.img} alt="" />
+                </span>
+                <p className="text-box-section2 m-0">{box.text}</p>
+              </div>
+            ))}
           </div>
           <div className="column-section2-footer d-flex flex-column gap-3 pt-5">
-          {section_2_box3.map(box => (
-                  <div className="d-flex align-items-center gap-2 box-row">
-                      <span className="white-box-section2 rounded"><img src={box.img} alt="" /></span>
-                      <p className="text-box-section2 m-0">{box.text}</p>
-                  </div>
-              ))}
+            {section_2_box3.map((box) => (
+              <div className="d-flex align-items-center gap-2 box-row">
+                <span className="white-box-section2 rounded">
+                  <img src={box.img} alt="" />
+                </span>
+                <p className="text-box-section2 m-0">{box.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
 
-
       <div className="section-3 py-5 px-2">
-          <div className="container-fluid container-md top d-flex justify-content-between pb-3 px-0 top-footer">
-              <div className="d-flex linksbar-footer border-0 justify-content-between justify-content-sm-center">
-                  <span>Startseite</span>
-                  <span>Online Konfigurator</span>
-                  <span>Onlineshop</span>
-                  <span className="mobile-disabled">Über uns</span>
-                  <span className="mobile-disabled">Kontakt</span>
-                  <span className="mobile-disabled">Impressum</span>
-                  <span>Datenschutz</span>
-                  <span>Dateneinstellungen</span>
-              </div>
-              <div className="d-flex socialbar-footer border-0 justify-content-between">
-                <img src='https://www.baudiscount-garagen.de/images/facebook.svg' alt="" />
-                <img src='https://www.baudiscount-garagen.de/images/twitter.svg' alt="" />
-                <img src='https://www.baudiscount-garagen.de/images/youtube.svg' alt="" />
-                <img src='https://www.baudiscount-garagen.de/images/my-business.svg' alt="" />
-                <img src='https://www.baudiscount-garagen.de/images/instagram.svg' alt="" />
-              </div>
+        <div className="container-fluid container-md top d-flex justify-content-between pb-3 px-0 top-footer">
+          <div className="d-flex linksbar-footer border-0 justify-content-between justify-content-sm-center">
+            <span>Startseite</span>
+            <span>Online Konfigurator</span>
+            <span>Onlineshop</span>
+            <span className="mobile-disabled">Über uns</span>
+            <span className="mobile-disabled">Kontakt</span>
+            <span className="mobile-disabled">Impressum</span>
+            <span>Datenschutz</span>
+            <span>Dateneinstellungen</span>
           </div>
+          <div className="d-flex socialbar-footer border-0 justify-content-between">
+            <img
+              src="https://www.baudiscount-garagen.de/images/facebook.svg"
+              alt=""
+            />
+            <img
+              src="https://www.baudiscount-garagen.de/images/twitter.svg"
+              alt=""
+            />
+            <img
+              src="https://www.baudiscount-garagen.de/images/youtube.svg"
+              alt=""
+            />
+            <img
+              src="https://www.baudiscount-garagen.de/images/my-business.svg"
+              alt=""
+            />
+            <img
+              src="https://www.baudiscount-garagen.de/images/instagram.svg"
+              alt=""
+            />
+          </div>
+        </div>
 
-          <div className='container-fluid container-md pt-3 d-flex justify-content-between p-0'>
-            <div className="reserved-container">
-              <span className="reserved-text text-nowrap">All Rights Reserved ® <a href="https://www.baudiscount-garagen.de/" target='_blank'>www.Baudiscount-Garagen.de</a> Copyright 2004 - 2022 </span>
-            </div>
-            <div className="d-flex justify-content-end">
-              <img className="logo-footer" src="https://www.baudiscount-garagen.de/images/logo-baudiscount.svgz" alt="logo" />
-            </div>
+        <div className="container-fluid container-md pt-3 d-flex justify-content-between p-0">
+          <div className="reserved-container">
+            <span className="reserved-text text-nowrap">
+              All Rights Reserved ®{" "}
+              <a href="https://www.baudiscount-garagen.de/" target="_blank">
+                www.Baudiscount-Garagen.de
+              </a>{" "}
+              Copyright 2004 - 2022{" "}
+            </span>
           </div>
+          <div className="d-flex justify-content-end">
+            <img
+              className="logo-footer"
+              src="https://www.baudiscount-garagen.de/images/logo-baudiscount.svgz"
+              alt="logo"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

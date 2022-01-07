@@ -1,6 +1,6 @@
 import React from "react";
 import { FiMousePointer } from "react-icons/fi";
-import productimg from '../../../images/product.webp'
+import productimg from "../../../images/product.webp";
 
 const Garagen_Sektionaltore_Rolltore = [
   {
@@ -27,7 +27,7 @@ const Products = () => {
         <span id="text-1-products">» Garagen Sektionaltore & Rolltore:</span>
       </div>
       <div className="d-flex flex-column">
-      <div className="d-flex box-row flex-wrap mt-3">
+        <div className="d-flex box-row flex-wrap mt-3">
           {Garagen_Sektionaltore_Rolltore.map((box) => (
             <div className="product-box rounded-top d-flex flex-column">
               <div className="box-title text-light p-3">{box.name}</div>
@@ -54,12 +54,11 @@ const Products = () => {
         </div>
       </div>
 
-
       <div className="mt-3">
         <span id="text-1-products">» Garagen Doppelflügeltore:</span>
       </div>
       <div className="d-flex flex-column">
-      <div className="d-flex box-row flex-wrap mt-3">
+        <div className="d-flex box-row flex-wrap mt-3">
           {Garagen_Sektionaltore_Rolltore.map((box) => (
             <div className="product-box rounded-top d-flex flex-column">
               <div className="box-title text-light p-3">{box.name}</div>
