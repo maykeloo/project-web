@@ -1,0 +1,238 @@
+.footer-section1-box {
+    width: 30%;
+    cursor: pointer;
+
+
+    &:hover {
+        > .footer-section1-button {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        width: 45%;
+    }
+}
+
+.footer-section1-button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    font-size: 1vw;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 1.5vw;
+    }
+
+    @media screen and (max-width: 650px) {
+        font-size: 2.5vw;
+    }
+}
+
+.footer-section1-box-title {
+    font-size: 1.7em;
+    white-space: pre;
+    text-align: center;
+
+    @media screen and (max-width: 1300px) {
+        font-size: 2vw;
+        white-space: normal;
+    }
+
+    @media screen and (max-width: 650px) {
+        font-size: 1.5em;
+    }
+}
+
+.footer-section1-box-img {
+    width: 15vw;
+
+    @media screen and (max-width: 1200px) {
+        width: 25vw;
+    }
+
+    @media screen and (max-width: 650px) {
+        width: 35vw;
+    }
+}
+
+
+
+.footer-section1-box-description {
+    font-size: 1em;
+
+    @media screen and (max-width: 1400px) {
+        font-size: 1vw;
+    }
+
+    @media screen and (max-width: 1400px) {
+        font-size: 1.2vw;
+    }
+
+    @media screen and (max-width: 650px) {
+        font-size: 0.7em;
+    }
+    
+}
+
+
+//section 2
+
+.column-section2-footer {
+    border-top: 3px solid #ffb703;
+    width: 30%;
+}
+
+.section-2 {
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
+}
+
+.box-row {
+    cursor: pointer;
+    
+    &:hover {
+        > .text-box-section2 {
+            color: #ffb703;
+        }
+
+        > .white-box-section2 {
+            background-color: rgb(167, 167, 167);
+        }
+    }
+}
+
+.white-box-section2 {
+    padding: 5px;
+    background-color: white; 
+    transition: 0.2s;
+
+    > img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.text-box-section2 {
+    transition: 0.2s;
+    color: white;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 1.5vw;
+    }
+}
+
+//section 3
+
+.top {
+    
+    @media screen and (max-width: 650px) {
+        flex-direction: column !important;
+    }
+}
+
+.socialbar-footer {
+
+    gap: 10px;
+
+    @media screen and (max-width: 650px) {
+        width: 30;
+        padding-top: 10px;
+        margin: auto;
+    }
+    
+
+    img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+
+        @media screen and (max-width: 1200px) {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.linksbar-footer {
+
+    gap: 30px;
+
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        gap: 5px;
+        margin: auto;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.5) !important ; 
+        padding-bottom: 10px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        gap: 15px;
+    }
+    > span {
+
+        transition: 0.2s;
+        white-space: pre;
+        font-size: 0.8vw;
+
+        @media screen and (max-width: 1300px) {
+        font-size: 1.1vw;
+        }
+
+        @media screen and (max-width: 1200px) {
+            font-size: 1vw;
+        }
+
+        @media screen and (max-width: 750px) {
+            font-size: 0.55em;
+        }
+
+        @media screen and (max-width: 650px) {
+            font-size: 0.7em;
+        }
+
+        &:hover {
+            color:red;
+            cursor: pointer;
+        }
+    }
+}
+
+.mobile-disabled {
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
+}
+
+.top-footer {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.438);
+}
+
+.logo-footer {
+    width: 50%;
+
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
+}
+
+.reserved-text {
+    font-size: 1em;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 0.6em;
+    }
+
+    @media screen and (max-width: 700px) {
+        font-size: 0.8em;
+    }
+}
+
+.reserved-container {
+    @media screen and (max-width: 700px) {
+        margin: auto;
+    }
+}

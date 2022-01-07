@@ -1,0 +1,71 @@
+.buttonbar {
+    background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(103,103,103,1) 100%);;
+}
+
+.bar {
+
+
+    > a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2vw;
+        transition: 0.2s;
+        padding: 1.2vw 0;
+
+        @media screen and (max-width: 800px) {
+        padding: 1.7vw 0;
+        font-size: 1.4vw;
+        font-weight: 500;
+        }
+
+        @media screen and (max-width: 575px) {
+            padding: 3vw 0;
+            font-size: 4vw;
+            font-weight: 400;
+            }
+
+        > span {
+        border-right: 1px solid grey;
+        padding: 0.3vw 2vw;
+        }
+        &:hover {
+            color: #ffc107;
+        }
+    }
+}
+
+.desktop {
+    @media screen and (max-width: 575px) {
+        display: none !important;
+    }
+}
+
+.mobile {
+    display: none !important;
+
+    @media screen and (max-width: 575px) {
+        display: flex !important;
+    }
+}
+
+.hamburger-menu {
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+
+    > * {
+        width: 20px;
+        height: 2px;
+        background: white;
+        display: block;
+    }
+}
+
+.buttonwrap {
+    display: flex;
+    margin: auto;
+}

@@ -1,0 +1,80 @@
+.bottom-intro {
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+.desktop-img-intro {
+    display: block;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.mobile-img-intro {
+    display: none;
+
+    @media screen and (max-width: 600px) {
+display: block;
+    }
+}
+
+.box-intro {
+    width: 70%;
+    background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(103,103,103,1) 100%);
+    cursor: pointer;
+
+    @media screen and (max-width: 1020px) {
+        width: 90%;
+    }
+
+    &:hover {
+        background: linear-gradient(0deg, rgb(38, 116, 189),rgb(21, 113, 250));
+    }
+}
+
+.intro-btn {
+    padding: 20px;
+    background-color: white;
+    color: rgb(36, 127, 212);
+    width: 250px;
+
+    @media screen and (max-width: 800px) {
+        padding: 10px;
+    }
+}
+
+.textwrapper {
+    h3 {
+        font-weight: 400;
+        font-size: 2.5vw;
+
+        @media screen and (max-width: 1020px) {
+            font-size: 3vw;
+        }
+
+        @media screen and (max-width: 600px) {
+            font-size: 5vw;
+        }
+    }
+
+    h4 {
+        font-weight: 300;
+        font-size: 2vw;
+
+        @media screen and (max-width: 1020px) {
+            font-size: 3vw;
+        }
+
+        @media screen and (max-width: 600px) {
+            font-size: 5vw;
+        }
+    }
+
+    #underlinetext {
+        font-weight: 400;
+    }
+}

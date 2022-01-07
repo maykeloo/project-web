@@ -1,0 +1,59 @@
+.header {
+    height: auto;
+    max-width: 80%;
+    margin: auto;
+    font-size: 0.9vw;
+  
+    @media screen and (max-width: 1200px){
+      max-width: 95%;
+      font-size: 1.2vw;
+    }
+  
+    @media screen and (max-width: 700px){
+      font-size: 1.3vw;
+    }
+  }
+
+  .active {
+    border-bottom: 3px solid rgb(6, 181, 250);
+  }
+  
+  .nav {
+    width: 70%;
+    padding: 0.2vw 0;
+
+    @media screen and (max-width: 1200px){
+      width: 85%;
+    }
+  }
+  
+  .text-link {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color: black;
+      border-bottom: 3px solid rgba(6, 181, 250, 0.452);
+    }
+  }
+  
+  .left-img {
+    width: 100%;
+  }
+
+  .img-left-cont {
+    width: 70%;
+
+    @media screen and (max-width: 1020px){
+      width: 100%;
+    }
+  }
+  
+  .img-1 {
+    width: 20%;
+    height: auto;
+  }
+  
+  .img-2 {
+    width: 55%;
+    height: auto;
+  }
